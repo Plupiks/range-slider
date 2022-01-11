@@ -9,6 +9,10 @@ inputSlider.oninput = function () {
   console.log(slideValue);
 };
 
-inputSlider.onblur = function () {
+inputSlider.addEventListener('mouseleave', function () {
   slideValue.classList.remove("show");
-}
+});
+
+inputSlider.addEventListener('keyup', function () {
+  slideValue.classList.remove("show");
+});
