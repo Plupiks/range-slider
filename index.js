@@ -9,7 +9,7 @@ inputSlider.oninput = function () {
   console.log(slideValue);
 };
 
-inputSlider.addEventListener('mouseleave', function () {
+inputSlider.addEventListener('mouseup', function () {
   slideValue.classList.remove("show");
 });
 
