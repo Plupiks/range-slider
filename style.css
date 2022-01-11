@@ -79,12 +79,12 @@ body {
 }
 
 .range .field .value.right {
-  right: -50px;
+  right: -55px;
 }
 
 .range .field input {
   -webkit-appearance: none;
-  height: 3px;
+  height: 6px;
   width: 100%;
   background: #ddd;
   border-radius: 5px;
